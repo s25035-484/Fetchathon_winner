@@ -65,7 +65,6 @@ On macOS with python.org Python, run `export SSL_CERT_FILE=$(python -c "import c
 | `AGENT_SEED` | Secret seed that fixes the agent's address |
 | `BACKEND_URL` | Base URL of the InterviewPilot service |
 | `BACKEND_TOKEN` | Access token for the service |
-| `PUBLIC_URL` | Public base URL for face-to-face room links |
 
 ## Reliability
 - Every message is acknowledged. If a call to the service fails, the user gets a friendly retry message, never silence.
