@@ -25,7 +25,7 @@ After your scorecard, reply **prep pack**. InterviewPilot sends a `RequestPaymen
 ## Agent
 | Name | Address | Protocol |
 |---|---|---|
-| InterviewPilot | `agent1qwwgjk95f769glj6ntawp0ytdkrypx8ww480a68hy7tk0fqpdlva7xuuvvm` | Agent Chat Protocol (ACP), Payment Protocol (seller) |
+| InterviewPilot | `agent1qwwgjk95f769glj6ntawp0ytdkrypx8ww480a68hy7tk0fqpdlva7xuuvvm` | Agent Chat Protocol (ACP) with Interactive Cards, Payment Protocol (seller) |
 
 Agentverse profile: _add link_ · ASI:One shared chat: _add link_ · Demo video: _add link_
 
@@ -38,6 +38,7 @@ ASI:One user ──ACP──> InterviewPilot (uAgent, Agentverse mailbox)
                                          └─ /room/<id>: face-to-face interview page
 ```
 - **uAgents + Agent Chat Protocol:** discoverable in ASI:One and usable entirely inside the chat.
+- **ASI:One Interactive Cards:** one-tap buttons to wrap up the interview, buy the Prep Pack or start a new interview.
 - **Payment Protocol:** the agent acts as seller for the Prep Pack, with request, commit and complete messages in the chat.
 - **ASI1 (`asi1-mini`)** drives every interviewer turn, using the full JD and conversation history, and writes the final scorecard.
 - The interview engine runs as a hosted service operated by the team. This repo contains the agent, which connects to that service.
