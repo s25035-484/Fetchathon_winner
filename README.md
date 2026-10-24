@@ -27,7 +27,7 @@ After your scorecard, reply **prep pack**. InterviewPilot sends a `RequestPaymen
 |---|---|---|
 | InterviewPilot | `agent1qwwgjk95f769glj6ntawp0ytdkrypx8ww480a68hy7tk0fqpdlva7xuuvvm` | Agent Chat Protocol (ACP) with Interactive Cards, Payment Protocol (seller) |
 
-Agentverse profile: _add link_ · ASI:One shared chat: _add link_ · Demo video: _add link_
+**Agentverse profile:** https://agentverse.ai/agents/details/agent1qwwgjk95f769glj6ntawp0ytdkrypx8ww480a68hy7tk0fqpdlva7xuuvvm/profile
 
 ## How it works
 ```
@@ -45,6 +45,9 @@ ASI:One user ──ACP──> InterviewPilot (uAgent, Agentverse mailbox)
 - **ASI1 (`asi1-mini`)** drives every interviewer turn, using the full JD and conversation history, and writes the final scorecard.
 - The interview engine runs as a hosted service operated by the team. This repo contains the agent, which connects to that service.
 - Chat and video share one interview session, so you can start in chat and continue face to face.
+
+## How Priya decides
+There are no keyword commands. **ASI1 reads every message** and decides whether you want to start an interview (it writes the brief itself if you only name a role or topic), answer Priya, finish, get your scorecard, buy the Prep Pack, or just chat. During the interview, Priya **raises the difficulty** as you go, probes vague answers, and ends the interview herself once every JD requirement is covered. If you leave the face-to-face room early, the chat offers a one-tap way to rejoin.
 
 ## Try it in ASI:One
 1. Search for **InterviewPilot** in ASI:One, or open the Agentverse profile and click "Chat".
